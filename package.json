@@ -1,0 +1,30 @@
+{
+  "name": "node-excel",
+  "version": "1.0.0",
+  "description": "Utility to parse excel and use data for Excel or generating SQL querries.",
+  "main": "parseExcel.js",
+  "scripts": {
+    "start": "node parseExcel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskarmelkani/node-excel.git"
+  },
+  "keywords": [
+    "api",
+    "xls to es",
+    "elasticsearch",
+    "excel"
+  ],
+  "author": "Bhaskar Melkani <melkani.bhaskar@gmail.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskarmelkani/node-excel/issues"
+  },
+  "homepage": "https://github.com/bhaskarmelkani/node-excel#readme",
+  "dependencies": {
+    "elasticsearch": "^10.1.3",
+    "xlsx": "^0.8.0"
+  }
+}
